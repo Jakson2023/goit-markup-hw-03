@@ -1,0 +1,170 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-green: #31d0aa;
+  --color-navy-blue: #2e2f42;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-navy-blue);
+  background-color: var(--color-white);
+}
+ul {
+  list-style-type: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+/* Logo */
+.logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--color-iris);
+  letter-spacing: 0.03em;
+}
+.logo-item-top {
+  color: var(--color-navy-blue);
+}
+.logo-item-bottom {
+  color: var(--color-cloud);
+}
+/* Button */
+.button-studio {
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-iris);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-studio:hover,
+.button-studio:focus {
+  background-color: var(--color-ocean);
+}
+.button-portfolio {
+  cursor: pointer;
+  color: var(--color-ocean);
+  background-color: var(--color-cloud);
+  font-weight: 500;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.button-portfolio:hover,
+.button-portfolio:focus {
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+/* Nav */
+.navigation {
+  text-decoration: none;
+  color: var(--color-slate);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--color-ocean);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--color-ocean);
+}
+.contacts {
+  color: var(--color-slate);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* text */
+
+.main-title {
+  color: var(--color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+.main-subtitle {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+.main-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
+}
+.main-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-slate);
+}
+.main-card-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--color-navy-blue);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-cornflower);
+}
+.link-portfolio {
+  text-decoration: none;
+}
+/* background */
+.main-list {
+  background-color: var(--color-white);
+  text-align: center;
+}
+.main-section-team {
+  background-color: var(--color-cloud);
+}
+.background {
+  background-color: var(--color-navy-blue);
+}
+
+/* hide title */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
