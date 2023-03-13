@@ -145,7 +145,6 @@ img {
   padding-bottom: 24px;
 }
 
-
 .navigation:hover,
 .navigation:focus {
   color: var(--color-ocean);
@@ -173,11 +172,9 @@ img {
   padding-bottom: 24px;
 }
 
-
 .address-list {
   display: flex;
   gap: 40px;
-
 }
 
 /**------------Containers------------ */
@@ -189,23 +186,19 @@ img {
   margin: 0 auto;
 }
 
-
 .feature-container {
   display: flex;
   gap: 24px;
 }
-
-
-
-
 
 .section {
   padding-top: 120px;
 }
 
 
-
 /**--------- card -------------*/
+
+
 .studio {
   max-width: 264px;
 }
@@ -259,6 +252,8 @@ img {
 }
 
 /**------------- text-------------- */
+
+
 .main-title {
   color: var(--color-white);
   font-size: 56px;
@@ -290,7 +285,6 @@ img {
 }
 
 
-
 /**------card text-------- */
 
 .card-team-text {
@@ -314,10 +308,6 @@ img {
   padding-top: 8px;
 
 }
-
-
-
-
 
 
 /**----------footer------------ */
