@@ -89,6 +89,7 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   margin-top: 48px;
+  border: none;
 }
 
 .button-studio:hover,
