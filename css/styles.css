@@ -34,12 +34,12 @@ h6 {
   margin: 0;
 }
 
-/* 
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
-} */
+}
 
 /**----------header------ */
 
@@ -63,8 +63,6 @@ img {
   line-height: 1.33;
   color: var(--color-iris);
   letter-spacing: 0.03em;
-  /* padding: 24px 0px 24px 0px;
-  margin-right: 76px; */
 }
 
 .logo-item-top {
@@ -91,8 +89,6 @@ img {
   padding: 16px 32px;
   min-width: 169px;
   margin-top: 48px;
-
-
 }
 
 .button-studio:hover,
@@ -104,8 +100,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .button-portfolio {
@@ -177,7 +172,6 @@ img {
   display: block;
 }
 
-
 .address-list {
   display: flex;
   gap: 40px;
@@ -194,7 +188,8 @@ img {
 
 .feature-container {
   display: flex;
-  outline: 1px solid orangered;
+  gap: 24px;
+
 }
 
 .feature-container>.feature {
@@ -202,20 +197,22 @@ img {
 
 }
 
-
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
+.img-section {
+  padding-bottom: 120px;
+}
+
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 /**--------- card -------------*/
 
-
-/* .studio {
-  max-width: 264px;
-} */
 
 .img-studio-list>.img-studio {
   flex-basis: calc((100% - 2*24px)/3);
@@ -225,7 +222,7 @@ img {
 .img-studio-list {
   display: flex;
   margin-top: 72px;
-  /* gap: 24px; */
+  gap: 24px;
 
 }
 
@@ -234,8 +231,8 @@ img {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * 24px);
-  margin-top: calc(-1 * 48px);
+  margin-left: -24px;
+  margin-top: -48px;
 }
 
 .card-portfolio>.card-item {
@@ -301,6 +298,7 @@ img {
   text-align: center;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 
@@ -310,9 +308,6 @@ img {
   padding: 32px 16px;
 }
 
-/* .feature {
-  width: calc ((100% - 3*24px)/4)
-} */
 
 .main-item {
   font-weight: 500;
